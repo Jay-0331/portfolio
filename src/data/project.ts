@@ -1,5 +1,23 @@
 export const projects: project[] = [
   {
+    name: 'Redis in Go',
+    type: 'Backend',
+    tech: ['Go'],
+    github: '',
+    image: '/Images/redis.webp',
+    description:
+      'A simple Redis clone developed in Go, with support for GET, SET, DELETE, and EXPIRE commands',
+  },
+  {
+    name: 'Go HTTP Framework',
+    type: 'Backend',
+    tech: ['Go'],
+    github: '',
+    image: '/Images/httpgo.webp',
+    description:
+      'A simple HTTP framework developed in Go, with support for routing, middleware, and request/response handling',
+  },
+  {
     name: 'Breadit',
     type: 'Fullstack',
     tech: ['Next.js', 'PostgreSQL', 'TypeScript'],
@@ -45,7 +63,7 @@ export type project = {
   name: string
   type: string
   tech: string[]
-  link: string
+  link?: string
   github?: string
   image: string
   description: string
