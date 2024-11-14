@@ -4,7 +4,7 @@ export const experienceData: ExperienceType[] = [
 		company: 'Infosys',
 		date: 'Jan 2021 - Jul 2023',
 		description:
-			'Headed up a project that created a new React front-end, which really helped our sales team sell more and close deals quicker. Plus, I worked on our Java system to make it more reliable and to help us get updates done quicker.',
+			'Led development of a React.js/Typescript front-end for sales team and optimized Java/Springboot backend, including streamlining Jenkins pipeline and implementing automated scripts, resulting in improved system efficiency and sales performance.',
 	},
 ]
 
