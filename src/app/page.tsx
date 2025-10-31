@@ -12,9 +12,9 @@ export default function Home() {
       <section className="px-6 md:px-20 antialiased">
         <Hero />
         <Skills />
-        <Projects />
         <Experiences />
         <Educations />
+        <Projects />
         <Contact />
       </section>
       <section>
