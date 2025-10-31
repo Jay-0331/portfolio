@@ -2,7 +2,7 @@ export const educations = [
   {
     name: 'Northeastern University',
     location: 'Boston, MA',
-    date: 'Sep 2023 - Present',
+    date: 'Sep 2023 - Dec 2025',
     degree: 'Mastern of Science',
     major: 'Software Engineering Systems',
   },
