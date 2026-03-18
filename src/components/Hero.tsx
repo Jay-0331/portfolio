@@ -20,22 +20,15 @@ export const Hero = () => {
         Jay Vekariya
       </h1>
       <p className="text-lg md:text-xl xl:text-3xl leading-snug">
-        Graduate Student @ Northeastern University
+        Software Engineer · Go, TypeScript, Cloud-Native Systems
       </p>
       <p className="text-base md:text-lg xl:text-xl text-neutral-50/90 pt-2">
-        A Full Stack Developer with a strong affinity for clean design and
-        well-crafted code. My approach is minimalist — I believe in creating
-        interfaces that are sleek and intuitive, paired with backend systems
-        that are robust and efficient.
+        Software Engineer with 2+ years of experience building distributed
+        systems and cloud-native applications. Led large-scale
+        monolith-to-microservices migration improving system throughput and
+        deployment velocity. Proficient in TypeScript, Go, and Python with
+        hands-on experience in Kubernetes, AWS, and CI/CD infrastructure.
       </p>
-      <a
-        target="_blank"
-        href={'/Resume.pdf'}
-        className="px-4 py-2 mt-3 bg-gradient-to-b from-neutral-50 to-neutral-400 text-neutral-950 rounded-lg md:text-lg font-bold"
-        rel={'noreferrer noopener'}
-      >
-        Resume
-      </a>
     </section>
   )
 }
