@@ -1,17 +1,24 @@
 export const experienceData: ExperienceType[] = [
   {
-    title: 'Software Engineering Intern',
+    title: 'Software Engineer',
+    company: 'Dassault Systèmes',
+    date: 'Jan 2026 - May 2026',
+    description:
+      'Engineered a feature flag platform in TypeScript with MSSQL and Redis, enabling A/B testing, gradual rollouts, and instant rollbacks without redeploys. Drove design and delivery of a multi-agent AI over Elasticsearch crash logs, shortening engineer triage time by 50% through automated root cause reports and feature usage analytics.',
+  },
+  {
+    title: 'Software Engineer',
     company: 'Dassault Systèmes',
     date: 'Jan 2025 - Aug 2025',
     description:
-      'Decomposed legacy Python monolithic application into 5+ TypeScript microservices, enabling independent scaling, reducing deployment time by 80%, and increasing throughput to 100K documents/hour. Proposed and architected centralized logging system using Fluent Bit and Elasticsearch, achieving 100% log visibility across all microservices and reducing debugging time by 75%. Optimized Docker infrastructure by migrating from Ubuntu to Alpine Linux, achieving 75% reduction in container sizes and improving deployment efficiency. Developed NPM package with automated CI/CD pipeline, centralizing common service utilities and reducing code duplication by 70% across microservices.',
+      'Led decomposition of a Python monolith into 5+ TypeScript microservices on Kubernetes, dropping deployment time 80% and lifting throughput to 100K docs/hour. Proposed and architected centralized logging with Fluent Bit and Elasticsearch, achieving full service visibility and a 75% reduction in debugging time. Standardized Docker images on Alpine Linux for all microservices and authored Helm charts for Kubernetes deploys, shrinking image size by 75% and eliminating release-config drift.',
   },
   {
     title: 'Software Engineer',
     company: 'Infosys Limited',
     date: 'Jun 2021 - Jul 2023',
     description:
-      "Developed the React.js/JavaScript front-end for Macy's in-store order application used by cashiers across retail locations, improving checkout workflow efficiency by 5% with an 85% user satisfaction rate. Delivered the Jenkins CI/CD pipeline for the order system's Java/Spring Boot backend, automating build and deploy stages to cut release cycles by 20%. Authored Bash tooling to rotate logs, archive transaction data, and renew SSL certificates across the Java/Spring Boot order services, reducing manual effort by 50%. Designed internal Java/Spring Boot REST APIs that aggregated in-store order data for Macy's reporting dashboards, handling 10K+ daily requests from regional inventory and sales analytics teams.",
+      "Developed the React front-end for Macy's in-store order app, accelerating checkout workflows by 20% for cashiers across retail locations. Delivered a Jenkins CI/CD pipeline for the Java order backend, automating build and deploy stages to shorten release cycles by 20% and remove manual ops overhead. Authored Bash tooling to rotate logs and renew SSL certificates across the Java order services, cutting manual ops effort by 50% and preventing disk-fill incidents on production nodes. Designed Java REST APIs that aggregated in-store order data for Macy's reporting dashboards, serving 10K+ daily requests from inventory and sales analytics teams.",
   },
 ]
 
