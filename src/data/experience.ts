@@ -2,16 +2,9 @@ export const experienceData: ExperienceType[] = [
   {
     title: 'Software Engineer',
     company: 'Dassault Systèmes',
-    date: 'Jan 2026 - May 2026',
+    date: 'Jan 2025 - May 2026',
     description:
-      'Engineered a feature flag platform in TypeScript with MSSQL and Redis, enabling A/B testing, gradual rollouts, and instant rollbacks without redeploys. Drove design and delivery of a multi-agent AI over Elasticsearch crash logs, shortening engineer triage time by 50% through automated root cause reports and feature usage analytics.',
-  },
-  {
-    title: 'Software Engineer',
-    company: 'Dassault Systèmes',
-    date: 'Jan 2025 - Aug 2025',
-    description:
-      'Led decomposition of a Python monolith into 5+ TypeScript microservices on Kubernetes, dropping deployment time 80% and lifting throughput to 100K docs/hour. Proposed and architected centralized logging with Fluent Bit and Elasticsearch, achieving full service visibility and a 75% reduction in debugging time. Standardized Docker images on Alpine Linux for all microservices and authored Helm charts for Kubernetes deploys, shrinking image size by 75% and eliminating release-config drift.',
+      "Reduced engineer triage time 50% by building a multi-agent AI over Elasticsearch logs for root cause analysis. Enabled A/B testing and instant rollbacks via a feature flag platform in TypeScript with MSSQL and Redis, eliminating redeploy cycles. Slashed deployments from 30 mins to under 1 min by building a deployment orchestrator in ASP.NET Core with automated rollbacks and a Next.js dashboard. Cut deploy time 80% and throughput to 100K docs/hr by decomposing a Python monolith into 5+ TypeScript microservices on Kubernetes. Trimmed debugging time 75% with OpenTelemetry traces and Elasticsearch for full-stack observability. Lowered project setup from 1 day to 15 mins with a reusable starter template with CI/CD, testing, and a CLI tool. Shrunk container images 75% by standardizing Alpine Linux and authoring Helm charts, eliminating config drift. Eliminated 70% of duplicated code across microservices by publishing an internal NPM package centralizing shared utilities with CI/CD.",
   },
   {
     title: 'Software Engineer',
