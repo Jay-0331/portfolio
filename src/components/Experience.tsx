@@ -28,7 +28,11 @@ export const Experience = ({ data }: props) => {
         </p>
       </div>
       <div className="px-4 py-6 bg-neutral-950 rounded-lg border border-neutral-50/5">
-        <p>{data.description}</p>
+        <ul className="list-disc pl-4 space-y-2">
+          {data.description.map((point, index) => (
+            <li key={index}>{point}</li>
+          ))}
+        </ul>
       </div>
     </div>
   )
